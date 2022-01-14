@@ -1,0 +1,9 @@
+@media screen and (max-width: 440px){
+    header{
+        display: block;
+    }
+    header h1{
+        text-align: center;
+    }
+    
+}

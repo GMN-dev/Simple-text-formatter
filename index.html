@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/index.css">
+    <link rel="stylesheet" href="/estilos/indexMobile.css">
+    <title>Text formatter</title>
+</head>
+<body>
+    <header>
+        <h1>Simple Text formatter</h1>
+        <ul class="redes">
+            <li><a href="https://www.linkedin.com/in/gabriel-magalhães-b98a341ab/"><img src="/imgs/linkin_logo_icon_154491.png" alt=""></a></li>
+            <li><a href="https://github.com/GMN-dev"><img src="/imgs/github_logo_icon_154464.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/g.magalhaes.dev/"><img src="/imgs/instagram_logo_icon_154475.png" alt=""></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100076451033010"><img src="/imgs/facebook_logo_icon_154505.png" alt=""></a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="containerCentral">
+            <section class="box">
+                <div class="textBox">
+                    <h2 class="prototype">Título</h2>
+                        <br>
+                    <p class="prototype">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, labore.</p>
+                </div>
+            </section>
+            <hr>
+            <div class="blocoEscrita">
+                <input type="text" id="" oninput="conversorTitulo(this)" placeholder="Título">
+                <br>
+                <textarea  oninput="conversorParagrafo(this)" placeholder="Escreva seu texto aqui." style="font-family: Arial"></textarea>
+            </div>
+            <hr>
+            <div class="containerButtons"> 
+                <div class="cor">
+                    <span>Cor da fonte</span>
+                    <br>
+                    <input type="color" id="fontColor" oninput="mudarCor(this)">
+                </div>
+            <hr>
+                <div class="size">
+                    <span>Tamanho da fonte</span>
+                    <br>
+                    
+                    <span>Paragrafo</span>
+                    <input type="number" maxlength="10" max="100" placeholder="12" oninput="mudarSize(this,'prototype',0)">
+                        <br>
+                    <span>Título</span>
+                    <input type="number" maxlength="10" max="100" placeholder="12" oninput="mudarSize(this, 'prototype',1)">
+                </div>
+            <hr>
+                <div class="position">
+                    <span>Posição</span>
+                    <br>
+                    <button class="pos"  onclick="txtPosition(this)" value="1">Esquerda</button>
+                    <button class="pos"  onclick="txtPosition(this)" value="2">Centro</button>
+                    <button class="pos"  onclick="txtPosition(this)" value="3">Direita</button>
+                </div>
+            <hr>
+                <div class="estilo">
+                    <span><strong>Negrito</strong></span>
+                    <input type="checkbox" id="bold" onclick="negrito(this)">
+                        <br>
+                    <span><i>Italico</i></span>
+                    <input type="checkbox" id="" onclick="italico(this)">
+                        <br>
+                    <span><u>Underline</u></span>
+                    <input type="checkbox" id="" onclick="underline(this)">
+                </div>
+            <hr>
+                <select name="Fonte" class="fontes" oninput="fontes(this)">
+                    <option class="options" value="Monospace">monospace</option>
+                    <option class="options" value="Arial">Arial</option>
+                    <option class="options" value="Cursive">Cursive</option>
+                </select>
+
+            </div>
+        </div>
+        <script src="/scripts/index.js"></script>
+    </main>
+    <footer>
+    <div class="conteudoFooter">
+        Créditos de background: <a href="https://br.freepik.com/fotos-vetores-gratis/casa">Casa foto criado por rawpixel.com - br.freepik.com</a>
+        <br>
+        Créditos de icone: <a href="https://icon-icons.com/pt/users/nNC1rLyG20WEgkfykwJUS/icon-sets/">Icones redes sociais</a>
+        <br>
+        Créditos de icones: <a href="https://icon-icons.com/pt/users/8inhRAMhlXioRQsONcVBQ/icon-sets/">Icon arrows</a>
+    </div>
+    </footer>
+    
+</body>
+</html>
