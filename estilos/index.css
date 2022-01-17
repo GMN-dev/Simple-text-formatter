@@ -96,6 +96,9 @@ main{
 .size input{
     width: 55px;
 }
+#size_first_span{
+    margin-top: 4px;
+}
 .position{
     margin: 10px 0 10px 0;
 }
