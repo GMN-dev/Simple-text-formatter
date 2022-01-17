@@ -18,7 +18,7 @@
     espaço possivel da página (atribuindo {flex : 1}), assim "empurrando" o footer sempre para baixo.
 </p>
 
-<br> ![Animação](https://user-images.githubusercontent.com/84913052/149833794-33cf7bd1-365b-4a34-804c-11495a192119.gif) <br>
+![Animação](https://user-images.githubusercontent.com/84913052/149833794-33cf7bd1-365b-4a34-804c-11495a192119.gif)
 
 <p>
     O arquivo .js foi o mais divertido e prazeroso de fazer, consegui fazer as funcionalidades por meio dos eventos DOM.
