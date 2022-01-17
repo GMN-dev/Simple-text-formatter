@@ -10,7 +10,8 @@
     consegui fazer meu arquivo ser semantico como deve ser, em CSS desfrutei das funcionalidades
     do display flex, e por meio de eventos DOM consegui manipular minhas funcionalidades como foi pensado. 
 </p>
-    <img src="/gifs/Animação.gif" alt="gif">
+    ![Animação](https://user-images.githubusercontent.com/84913052/149833680-7fcd59e6-0c10-4e05-a226-de422eb51da4.gif)
+
 <p>
     O footer foi o maior do meus problemas, eu não entendia como coloca-lo na parte inferior da página.
     Depois de alguns minutos de pesquisa e videos no YouTube, aprendi que há uma forma de definir por meio 
