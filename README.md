@@ -1,9 +1,11 @@
 <h1>Simple Text Formatter</h1>
-<h2>Formatador de texto simples</h2>
+<h3>Formatador de texto simples</h3>
 
 <h3>Sobre</h3>
 <p>Ferramentas básicas e rápidas para formatação de textos</p>
-<br>
+
+![Animação2](https://user-images.githubusercontent.com/84913052/149836225-9710b762-14ae-455f-9843-9a71259b7022.gif)
+
 <h3>Relatório</h3>
 <p>
     Nesse projeto conseguir colocar em prática conhecimentos básicos de HTML, CSS e Javascript. Em html 
