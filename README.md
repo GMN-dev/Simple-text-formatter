@@ -10,9 +10,6 @@
     consegui fazer meu arquivo ser semantico como deve ser, em CSS desfrutei das funcionalidades
     do display flex, e por meio de eventos DOM consegui manipular minhas funcionalidades como foi pensado. 
 </p>
-   
-<br> ![Animação](https://user-images.githubusercontent.com/84913052/149833794-33cf7bd1-365b-4a34-804c-11495a192119.gif) <br>
-
 <p>
     O footer foi o maior do meus problemas, eu não entendia como coloca-lo na parte inferior da página.
     Depois de alguns minutos de pesquisa e videos no YouTube, aprendi que há uma forma de definir por meio 
@@ -20,6 +17,8 @@
     definir o body como display flex, defini que um dos elementos flex (no caso o main) preencheria maior
     espaço possivel da página (atribuindo {flex : 1}), assim "empurrando" o footer sempre para baixo.
 </p>
+<br> ![Animação](https://user-images.githubusercontent.com/84913052/149833794-33cf7bd1-365b-4a34-804c-11495a192119.gif) <br>
+
 <p>
     O arquivo .js foi o mais divertido e prazeroso de fazer, consegui fazer as funcionalidades por meio dos eventos DOM.
     Tentei usar o lógicas que aprendi estudando algoritmos e estrutura de dados
