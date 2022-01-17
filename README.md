@@ -17,6 +17,7 @@
     definir o body como display flex, defini que um dos elementos flex (no caso o main) preencheria maior
     espaço possivel da página (atribuindo {flex : 1}), assim "empurrando" o footer sempre para baixo.
 </p>
+
 <br> ![Animação](https://user-images.githubusercontent.com/84913052/149833794-33cf7bd1-365b-4a34-804c-11495a192119.gif) <br>
 
 <p>
